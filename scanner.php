@@ -61,7 +61,7 @@ function mapTagsToArray($filesArray) {
 }
 $filesArray = flatten(dirToArray("C:\\wamp64\\www\\opencart\\upload\\catalog\\language\\he-temp"));
 //var_dump(mapTagsToArray($filesArray));
-sendYandexRequest("Use Gift Certificate");
+sendYandexRequest("Warning: No Shipping options are available. Please <a href=\"%s\">contact us</a> for assistance!");
 
 function sendYandexRequest($text){
 	$dest_language = "he";
