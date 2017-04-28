@@ -1,0 +1,132 @@
+<?php
+// Heading
+$_['heading_title']              = 'הוראות';
+
+// Text
+$_['text_success']               = 'הצלחה: שינוי הוראות!';
+$_['text_list']                  = 'סדר הרשימה';
+$_['text_add']                   = 'להוסיף את הפקודה';
+$_['text_edit']                  = 'עריכת סדר';
+$_['text_order_detail']          = 'פרטי ההזמנה';
+$_['text_customer_detail']       = 'פרטי הלקוח';
+$_['text_option']                = 'אפשרויות';
+$_['text_store']                 = 'חנות';
+$_['text_date_added']            = 'תאריך הוספה';
+$_['text_payment_method']        = 'שיטת התשלום';
+$_['text_shipping_method']       = 'שיטת משלוח';
+$_['text_customer']              = 'הלקוח';
+$_['text_customer_group']        = 'קבוצת לקוחות';
+$_['text_email']                 = 'דואר אלקטרוני';
+$_['text_telephone']             = 'טלפון';
+$_['text_invoice']               = 'חשבונית';
+$_['text_reward']                = 'נקודות מצטברות';
+$_['text_affiliate']             = 'שותפים';
+$_['text_order']                 = 'סדר (#%s)';
+$_['text_payment_address']       = 'התשלום הכתובת';
+$_['text_shipping_address']      = 'כתובת למשלוח';
+$_['text_comment']               = 'הערה הלקוח';
+$_['text_history']               = 'סדר היסטוריה';
+$_['text_history_add']           = 'להוסיף הוראה בהיסטוריה';
+$_['text_account_custom_field']  = 'חשבון שדות מותאמים אישית';
+$_['text_payment_custom_field']  = 'התשלום כתובת שדות מותאמים אישית';
+$_['text_shipping_custom_field'] = 'כתובת למשלוח שדות מותאמים אישית';
+$_['text_browser']               = 'דפדפן';
+$_['text_ip']                    = 'כתובת ה-IP';
+$_['text_forwarded_ip']          = 'העבירו IP';
+$_['text_user_agent']            = 'סוכן משתמש';
+$_['text_accept_language']       = 'לקבל את השפה';
+$_['text_order_id']              = 'מזהה ההזמנה:';
+$_['text_fax']                   = 'פקס:';
+$_['text_website']               = 'אתר אינטרנט:';
+$_['text_invoice_no']            = 'חשבונית לא.:';
+$_['text_invoice_date']          = 'חשבונית תאריך:';
+$_['text_sku']                   = 'SKU:';
+$_['text_upc']                   = 'UPC:';
+$_['text_ean']                   = 'EAN:';
+$_['text_jan']                   = 'ג \' ן:';
+$_['text_isbn']                  = 'מסת " ב:';
+$_['text_mpn']                   = 'MPN:';
+$_['text_missing']               = 'חסר פקודות';
+$_['text_default']               = 'ברירת המחדל';
+$_['text_product']               = 'להוסיף את המוצר(ים)';
+$_['text_voucher']               = 'להוסיף את השובר(s)';
+$_['text_shipping']              = 'משלוח';
+$_['text_contact']               = 'קשר';
+$_['text_reward_added']          = 'הצלחה: נקודות גמול הוסיף!';
+$_['text_reward_removed']        = 'הצלחה: נקודות גמול הוסר!';
+$_['text_commission_added']      = 'הצלחה: הוועדה הוסיף!';
+$_['text_commission_removed']    = 'הצלחה: הוועדה הוסרו!';
+$_['text_restock']               = 'הצלחה: מוצרים מולאו מחדש!';
+$_['text_upload']                = 'את הקובץ בהצלחה שהועלו!';
+$_['text_picklist']              = 'מוקד הערה';
+
+// Column
+$_['column_order_id']            = 'מזהה ההזמנה';
+$_['column_customer']            = 'הלקוח';
+$_['column_status']              = 'סטטוס';
+$_['column_date_added']          = 'תאריך הוספה';
+$_['column_date_modified']       = 'תאריך שינוי';
+$_['column_total']               = 'סה " כ';
+$_['column_product']             = 'המוצר';
+$_['column_model']               = 'מודל';
+$_['column_quantity']            = 'כמות';
+$_['column_price']               = 'מחיר ליחידה';
+$_['column_comment']             = 'תגובה';
+$_['column_notify']              = 'הלקוח הודעה';
+$_['column_location']            = 'מיקום';
+$_['column_reference']           = 'התייחסות';
+$_['column_action']              = 'פעולה';
+$_['column_weight']              = 'משקל המוצר';
+
+// Entry
+$_['entry_store']                = 'חנות';
+$_['entry_customer']             = 'הלקוח';
+$_['entry_customer_group']       = 'קבוצת לקוחות';
+$_['entry_firstname']            = 'שם פרטי';
+$_['entry_lastname']             = 'שם משפחה';
+$_['entry_email']                = 'דואר אלקטרוני';
+$_['entry_telephone']            = 'טלפון';
+$_['entry_fax']                  = 'פקס';
+$_['entry_address']              = 'בחר כתובת';
+$_['entry_company']              = 'החברה';
+$_['entry_address_1']            = 'כתובת 1';
+$_['entry_address_2']            = 'כתובת 2';
+$_['entry_city']                 = 'העיר';
+$_['entry_postcode']             = 'מיקוד';
+$_['entry_country']              = 'המדינה';
+$_['entry_zone']                 = 'אזור / מדינה';
+$_['entry_zone_code']            = 'אזור / מדינה קוד';
+$_['entry_product']              = 'בחר את המוצר';
+$_['entry_option']               = 'בחר באפשרות(s)';
+$_['entry_quantity']             = 'כמות';
+$_['entry_to_name']              = 'נמען\'s שם';
+$_['entry_to_email']             = 'נמען\'s E-mail';
+$_['entry_from_name']            = 'השולח\'s שם';
+$_['entry_from_email']           = 'השולח\'s E-mail';
+$_['entry_theme']                = 'שובר מתנה ערכת נושא';
+$_['entry_message']              = 'הודעה';
+$_['entry_amount']               = 'כמות';
+$_['entry_affiliate']            = 'שותפים';
+$_['entry_order_status']         = 'מצב ההזמנה';
+$_['entry_notify']               = 'ליידע את הלקוח';
+$_['entry_override']             = 'לעקוף';
+$_['entry_comment']              = 'תגובה';
+$_['entry_currency']             = 'מטבע';
+$_['entry_shipping_method']      = 'שיטת משלוח';
+$_['entry_payment_method']       = 'שיטת התשלום';
+$_['entry_coupon']               = 'קופון';
+$_['entry_voucher']              = 'השובר';
+$_['entry_reward']               = 'פרס';
+$_['entry_order_id']             = 'מזהה ההזמנה';
+$_['entry_total']                = 'סה " כ';
+$_['entry_date_added']           = 'תאריך הוספה';
+$_['entry_date_modified']        = 'תאריך שינוי';
+
+// Help
+$_['help_override']              = 'אם הלקוחות ההזמנה נחסם מלשנות את מצב ההזמנה בשל אנטי-הונאה סיומת לאפשר עקיפה.';
+
+// Error
+$_['error_warning']              = 'אזהרה: אנא בדוק את הטופס בקפידה על שגיאות!';
+$_['error_permission']           = 'אזהרה: אין לך הרשאה לשנות את ההוראות!';
+$_['error_action']               = 'אזהרה: אין אפשרות להשלים פעולה זו!';
+$_['error_filetype']			 = 'סוג קובץ לא חוקי!';

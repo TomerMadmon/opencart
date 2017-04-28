@@ -59,7 +59,7 @@ function mapTagsToArray($filesArray) {
 //sendYandexRequest("Warning: No Shipping options are available. Please <a href=\"%s\">contact us</a> for assistance!");
 
 function sendYandexRequest($text) {
-    $dest_language = "fr";
+    $dest_language = "es";
     $format = "html";
     $key = "trnsl.1.1.20170427T150420Z.7fc4518c4dddedad.782e947ac8aed915a77498e4dbc356b9a0a191e1";
     $base_path = "https://translate.yandex.net/api/v1.5/tr.json/translate";
@@ -90,7 +90,7 @@ function replaceTagInFile($file, $tag, $newValue) {
 }
 
 function translate() {
-    $filesArray = flatten(dirToArray("C:\\Users\\Edmor\\Documents\\opencart\\upload\\catalog\\language\\fr-fr"));
+    $filesArray = flatten(dirToArray("C:\\Users\\Edmor\\Documents\\opencart\\upload\\catalog\\language\\es-sp"));
     $mappedArray = mapTagsToArray($filesArray);
     foreach ($mappedArray as $filePath => $translationsArray) {
         echo $filePath.PHP_EOL;
