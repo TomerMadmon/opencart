@@ -1,30 +1,30 @@
 <?php
 // Text
-$_['text_title']				= 'Credit Card / Debit Card (SagePay)';
-$_['text_credit_card']			= 'Card Details';
-$_['text_description']			= 'Items on %s Order No: %s';
-$_['text_card_type']			= 'Card Type: ';
-$_['text_card_name']			= 'Card Name: ';
-$_['text_card_digits']			= 'Last Digits: ';
-$_['text_card_expiry']			= 'Expiry: ';
-$_['text_trial']				= '%s every %s %s for %s payments then ';
-$_['text_recurring']			= '%s every %s %s';
-$_['text_length']				= ' for %s payments';
-$_['text_success']				= 'Your payment has been authorised.';
-$_['text_decline']				= 'Your payment has been declined.';
-$_['text_bank_error']			= 'There was an error processing your request with the bank.';
-$_['text_transaction_error']	= 'There was an error processing your transaction.';
-$_['text_generic_error']		= 'There was an error processing your request.';
-$_['text_hash_failed']			= 'Hash check failed. Do not try your payment again as the payment status is unknown. Please contact the merchant.';
-$_['text_link']					= 'Please click <a href="%s">here</a> to continue';
-$_['text_confirm_delete']		= 'Are you sure you want to delete the card?';
+$_['text_title']				= 'Tarjeta De Crédito / Tarjeta De Débito (SagePay)';
+$_['text_credit_card']			= 'Detalles De La Tarjeta De';
+$_['text_description']			= 'Artículos en %s Nº de Pedido: %s';
+$_['text_card_type']			= 'Tipo De Tarjeta: ';
+$_['text_card_name']			= 'Nombre De La Tarjeta: ';
+$_['text_card_digits']			= 'Los Últimos Dígitos: ';
+$_['text_card_expiry']			= 'Caducidad: ';
+$_['text_trial']				= '%s todos los %s %s %s pagos, a continuación, ';
+$_['text_recurring']			= '%s todos los %s %s';
+$_['text_length']				= ' para %s pagos';
+$_['text_success']				= 'Su pago ha sido autorizado.';
+$_['text_decline']				= 'Su pago ha sido rechazado.';
+$_['text_bank_error']			= 'Hubo un error al procesar su solicitud con el banco.';
+$_['text_transaction_error']	= 'Hubo un error al procesar su transacción.';
+$_['text_generic_error']		= 'Hubo un error al procesar su solicitud.';
+$_['text_hash_failed']			= 'Hash check failed. No trate a su pago como el pago se desconoce el estado. Póngase en contacto con el comerciante.';
+$_['text_link']					= 'Por favor haz clic <a href=\"%s\">aquí</a> para continuar';
+$_['text_confirm_delete']		= 'Está seguro de que desea eliminar la tarjeta?';
 
 // Entry
-$_['entry_card']				= 'New or Existing Card: ';
-$_['entry_card_existing']		= 'Existing';
-$_['entry_card_new']			= 'New';
-$_['entry_card_save']			= 'Remember card details for future use';
-$_['entry_cc_choice']			= 'Choose an Existing Card';
+$_['entry_card']				= 'Nuevo o Existente de la Tarjeta: ';
+$_['entry_card_existing']		= 'Existente';
+$_['entry_card_new']			= 'Nuevo';
+$_['entry_card_save']			= 'Recuerde los detalles de la tarjeta para su uso futuro';
+$_['entry_cc_choice']			= 'Elegir una Tarjeta Existente';
 
 // Button
-$_['button_delete_card']		= 'Delete selected card';
+$_['button_delete_card']		= 'Eliminar de la tarjeta seleccionada';

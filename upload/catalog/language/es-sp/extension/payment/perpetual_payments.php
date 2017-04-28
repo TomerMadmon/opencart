@@ -1,20 +1,20 @@
 <?php
 // Text
-$_['text_title']				= 'Credit or Debit Card (Processed securely by Perpetual Payments)';
-$_['text_credit_card']			= 'Credit Card Details';
-$_['text_transaction']			= 'Transaction ID:';
+$_['text_title']				= 'Tarjeta de crédito o Débito (Procesados de forma segura por la Perpetua Pagos)';
+$_['text_credit_card']			= 'Detalles De Tarjeta De Crédito';
+$_['text_transaction']			= 'ID de transacción:';
 $_['text_avs']					= 'AVS/CVV:';
-$_['text_avs_full_match']		= 'Full match';
-$_['text_avs_not_match']		= 'Not matched';
-$_['text_authorisation']		= 'Authorisation code:';
+$_['text_avs_full_match']		= 'Partido completo';
+$_['text_avs_not_match']		= 'No se corresponde';
+$_['text_authorisation']		= 'Código de autorización:';
 
 // Entry
-$_['entry_cc_number']			= 'Card Number';
-$_['entry_cc_start_date']		= 'Card Valid From Date';
-$_['entry_cc_expire_date']		= 'Card Expiry Date';
-$_['entry_cc_cvv2']				= 'Card Security Code (CVV2)';
-$_['entry_cc_issue']			= 'Card Issue Number';
+$_['entry_cc_number']			= 'El Número De La Tarjeta';
+$_['entry_cc_start_date']		= 'Tarjeta Válida A Partir De La Fecha';
+$_['entry_cc_expire_date']		= 'Tarjeta Fecha De Caducidad';
+$_['entry_cc_cvv2']				= 'Tarjeta de Código de Seguridad (CVV2)';
+$_['entry_cc_issue']			= 'El Número De La Tarjeta De';
 
 // Help
-$_['help_start_date']			= '(if available)';
-$_['help_issue']				= '(for Maestro and Solo cards only)';
+$_['help_start_date']			= '(si está disponible)';
+$_['help_issue']				= '(para el Maestro y el Solo, solo tarjetas)';

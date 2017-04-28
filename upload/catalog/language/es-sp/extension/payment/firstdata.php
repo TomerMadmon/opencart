@@ -1,42 +1,42 @@
 <?php
 // Heading
-$_['text_title']				= 'Credit / Debit card (First Data)';
+$_['text_title']				= 'Tarjeta de crédito / Débito (Primeros Datos)';
 
 // Button
-$_['button_confirm']			= 'Continue';
+$_['button_confirm']			= 'Continuar';
 
 // Text
-$_['text_new_card']				= 'New card';
-$_['text_store_card']			= 'Remember my card details';
-$_['text_address_response']		= 'Address verification: ';
-$_['text_address_ppx']			= 'No address data provided or Address not checked by the Card Issuer';
-$_['text_address_yyy']			= 'Card Issuer confirmed that street and postcode match with their records';
-$_['text_address_yna']			= 'Card Issuer confirmed that street matches with their records but postcode does not match';
-$_['text_address_nyz']			= 'Card Issuer confirmed that postcode matches with their records but street does not match';
-$_['text_address_nnn']			= 'Both street and postcode do not match with the Card Issuer records';
-$_['text_address_ypx']			= 'Card Issuer confirmed that street matches with their records. The Issuer did not check the postcode';
-$_['text_address_pyx']			= 'Card Issuer confirmed that postcode matches with their records. The Issuer did not check the street';
-$_['text_address_xxu']			= 'Card Issuer did not check the AVS information';
-$_['text_card_code_verify']		= 'Security code: ';
-$_['text_card_code_m']			= 'Card security code match';
-$_['text_card_code_n']			= 'Card security code does not match';
-$_['text_card_code_p']			= 'Not processed';
-$_['text_card_code_s']			= 'Merchant has indicated that the card security code is not present on the card';
-$_['text_card_code_u']			= 'Issuer is not certified and/or has not provided encryption keys';
-$_['text_card_code_x']			= 'No response from the credit card association was received';
-$_['text_card_code_blank']		= 'A blank response should indicate that no code was sent and that there was no indication that the code was not present on the card.';
+$_['text_new_card']				= 'Nueva tarjeta';
+$_['text_store_card']			= 'Recuerde detalles de mi tarjeta';
+$_['text_address_response']		= 'Verificación de la dirección: ';
+$_['text_address_ppx']			= 'No hay datos de la dirección proporcionada o la Dirección no se comprueba por el Emisor de la Tarjeta';
+$_['text_address_yyy']			= 'El Emisor de la tarjeta confirmó que la calle y el código postal que coincida con sus registros';
+$_['text_address_yna']			= 'El Emisor de la tarjeta confirmó que la calle partidos con sus registros, pero no coincide con el código postal';
+$_['text_address_nyz']			= 'El Emisor de la tarjeta confirmó que el código postal partidos con sus registros, pero la calle no coincide con';
+$_['text_address_nnn']			= 'Tanto la calle y el código postal no coinciden con el Emisor de la Tarjeta de registros';
+$_['text_address_ypx']			= 'El Emisor de la tarjeta confirmó que la calle partidos con sus registros. El Emisor no revisar el código postal de la';
+$_['text_address_pyx']			= 'El Emisor de la tarjeta confirmó que el código postal partidos con sus registros. El Emisor no se echa a la calle';
+$_['text_address_xxu']			= 'El Emisor de la tarjeta no revisar el AVS información';
+$_['text_card_code_verify']		= 'Código de seguridad: ';
+$_['text_card_code_m']			= 'Código de seguridad de tarjeta partido';
+$_['text_card_code_n']			= 'Código de seguridad de tarjeta no coincide con';
+$_['text_card_code_p']			= 'No procesada';
+$_['text_card_code_s']			= 'El comerciante ha indicado que el código de seguridad de tarjeta no está presente en la tarjeta';
+$_['text_card_code_u']			= 'El emisor no está certificado y/o no ha proporcionado las claves de cifrado';
+$_['text_card_code_x']			= 'No hay respuesta de la asociación de tarjetas de crédito fue recibido';
+$_['text_card_code_blank']		= 'Una respuesta en blanco debe indicar que no hay ningún código fue enviado y que no había ninguna indicación de que el código no estaba presente en la tarjeta.';
 $_['text_card_type_m']			= 'Mastercard';
 $_['text_card_type_v']			= 'Visa (Credit/Debit/Electron/Delta)';
-$_['text_card_type_c']			= 'Diners';
+$_['text_card_type_c']			= 'Los comensales';
 $_['text_card_type_a']			= 'American Express';
 $_['text_card_type_ma']			= 'Maestro';
 $_['text_card_type_mauk']		= 'Maestro UK/Solo';
-$_['text_response_code_full']	= 'Approval code: ';
-$_['text_response_code']		= 'Full response code: ';
-$_['text_response_card']		= 'Card used: ';
-$_['text_response_card_type']	= 'Card type: ';
-$_['text_response_proc_code']	= 'Processor code: ';
-$_['text_response_ref']			= 'Ref number: ';
+$_['text_response_code_full']	= 'Código de aprobación: ';
+$_['text_response_code']		= 'Completo código de la respuesta: ';
+$_['text_response_card']		= 'Tarjeta: ';
+$_['text_response_card_type']	= 'Tipo de tarjeta: ';
+$_['text_response_proc_code']	= 'Procesador de código: ';
+$_['text_response_ref']			= 'Número de referencia: ';
 
 // Error
-$_['error_failed']				= 'Unable to process your payment, please try again';
+$_['error_failed']				= 'No se puede procesar su pago, por favor intente de nuevo';

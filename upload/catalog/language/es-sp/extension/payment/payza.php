@@ -1,3 +1,3 @@
 <?php
 // Text
-$_['text_title'] = 'Credit Card / Debit Card (Payza)';
+$_['text_title'] = 'Tarjeta De Crédito / Tarjeta De Débito (Payza)';
